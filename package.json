@@ -1,5 +1,5 @@
 {
-  "name": "iterate.js",
+  "name": "iterator.johnny",
   "version": "1.0.0",
   "description": "Iterate through arrays while controlling the number of concurrent operations",
   "main": "index.js",
@@ -26,9 +26,9 @@
   "author": "Johnny O'Donnell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnnyodonnell/iterate.js/issues"
+    "url": "https://github.com/johnnyodonnell/iterator.johnny/issues"
   },
-  "homepage": "https://github.com/johnnyodonnell/iterate.js#readme",
+  "homepage": "https://github.com/johnnyodonnell/iterator.johnny#readme",
   "dependencies": {
     "q": "^1.5.1"
   }
