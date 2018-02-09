@@ -1,6 +1,6 @@
 {
   "name": "iterator.johnny",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Iterate through arrays while controlling the number of concurrent operations",
   "main": "index.js",
   "scripts": {
