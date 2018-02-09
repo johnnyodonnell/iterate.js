@@ -1,5 +1,5 @@
 {
-  "name": "iterator.js",
+  "name": "iterate.js",
   "version": "1.0.0",
   "description": "Iterate through arrays while controlling the number of concurrent operations",
   "main": "index.js",
@@ -8,27 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/johnnyodonnell/iterator.js.git"
+    "url": "git+https://github.com/johnnyodonnell/iterate.js.git"
   },
   "keywords": [
+    "array",
     "async",
     "asynchronous",
-    "forEach",
+    "concurrent",
     "each",
+    "forEach",
+    "iterate",
     "iteration",
     "iterator",
-    "iterate",
     "loop",
-    "parallel",
-    "concurrent",
-    "array"
+    "parallel"
   ],
   "author": "Johnny O'Donnell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnnyodonnell/iterator.js/issues"
+    "url": "https://github.com/johnnyodonnell/iterate.js/issues"
   },
-  "homepage": "https://github.com/johnnyodonnell/iterator.js#readme",
+  "homepage": "https://github.com/johnnyodonnell/iterate.js#readme",
   "dependencies": {
     "q": "^1.5.1"
   }
