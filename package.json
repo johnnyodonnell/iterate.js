@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnnyodonnell/iterate.js.git"
+    "url": "git+https://github.com/johnnyodonnell/iterator.johnny.git"
   },
   "keywords": [
     "array",
