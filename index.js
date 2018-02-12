@@ -1,6 +1,18 @@
 const Q = require("q");
 
 
+const mapToList = function(map) {
+    list = [];
+
+    for (var key in map) {
+        if (map.hasOwnProperty(key)) {
+            list.push(map[key]);
+        }
+    }
+
+    return list;
+};
+
 const iteratorFactory = {
     createNewInstance: function(maxConcurrent = 1) {
         let i = 0;
@@ -22,7 +34,14 @@ const iteratorFactory = {
         };
 
         const iterator = {
-            iterate: function(arr, iterCback, doneCback) {
+            iterate: function(collection, iterCback, doneCback) {
+                let arr;
+                if (collection.constructor === Array) {
+                    arr = collection;
+                } else {
+                    arr = mapToList(collection);
+                }
+
                 const promises = [];
 
                 i = 0;
